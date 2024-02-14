@@ -2,16 +2,25 @@
 
 # git-commit-message-convention
 
-# Types
-
 | Type          | Description |
 |:-------------:|-------------|
-################
-# Feat : 새로운 기능 추가
-# Fix : 버그 수정
-# Docs : 문서 수정
-# Test : 테스트 코드 추가
-# Refactor : 코드 리팩토링
-# Style : 코드 의미에 영향을 주지 않는 변경사항
-# Chore : 빌드 부분 혹은 패키지 매니저 수정사항
-################
+| `feat`        | for new feature implementing commit (equal `new`) |
+| `update`      | for update commit |
+| `bug`         | for bug fix commit |
+| `security`    | for security issue fix commit |
+| `style`       | for style fix commit |
+| `improvement` | for backwards-compatible enhancement commit |
+| `breaking`    | for backwards-incompatible enhancement commit |
+| `deprecated`  | for deprecated feature commit |
+| `i18n`        | for i18n (internationalization) commit |
+| `a11y`        | for a11y (accessibility) commit |
+| `refactor`    | for refactoring commit |
+| `docs`        | for documentation commit |
+| `example`     | for example code commit |
+| `test`        | for testing commit |
+| `deps`        | for dependencies upgrading or downgrading commit |
+| `config`      | for configuration commit |
+| `build`       | for packaging or bundling commit |
+| `release`     | for publishing commit |
+| `wip`         | for work in progress commit |
+| `chore`       | for other operations commit |
