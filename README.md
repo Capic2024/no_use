@@ -4,23 +4,11 @@
 
 | Type          | Description |
 |:-------------:|-------------|
-| `feat`        | for new feature implementing commit (equal `new`) |
-| `update`      | for update commit |
-| `bug`         | for bug fix commit |
-| `security`    | for security issue fix commit |
-| `style`       | for style fix commit |
-| `improvement` | for backwards-compatible enhancement commit |
-| `breaking`    | for backwards-incompatible enhancement commit |
-| `deprecated`  | for deprecated feature commit |
-| `i18n`        | for i18n (internationalization) commit |
-| `a11y`        | for a11y (accessibility) commit |
-| `refactor`    | for refactoring commit |
-| `docs`        | for documentation commit |
-| `example`     | for example code commit |
-| `test`        | for testing commit |
-| `deps`        | for dependencies upgrading or downgrading commit |
-| `config`      | for configuration commit |
-| `build`       | for packaging or bundling commit |
-| `release`     | for publishing commit |
-| `wip`         | for work in progress commit |
-| `chore`       | for other operations commit |
+| `feat`        | 기능 개발 시 |
+| `bug`         | 버그 발생 시 |
+| `chore`       | 전반적인 환경 설정 시 |
+| `docs`        | 문서 작업 시 |
+| `fix`         | 기존 작성된 코드 수정 시 |
+| `refactor`    | 리펙토링 시 |
+| `test`        | 테스트 관련 |
+
